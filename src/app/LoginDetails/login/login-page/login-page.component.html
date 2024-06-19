@@ -1,0 +1,89 @@
+
+<mat-card>
+
+
+  <form *ngIf="isSignup"  [formGroup]="signupForm" (ngSubmit)=" signup()">
+    <mat-form-field appearance="fill">
+      <mat-label>First Name</mat-label>
+      <input matInput formControlName="firstname" type="text" required>
+      <mat-error *ngIf="signupForm.get('firstname')?.hasError('required')">
+        Name is field  required
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Email</mat-label>
+      <input matInput formControlName="email" type="email" required>
+      <mat-error *ngIf="signupForm.get('email')?.hasError('required')">
+        Email is field  required
+      </mat-error>
+      <mat-error *ngIf="signupForm.get('email')?.hasError('email')">
+        Please enter a valid email address
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Mobile Number</mat-label>
+      <input matInput formControlName="mobile" type="text" required>
+      <mat-error *ngIf="signupForm.get('mobile')?.hasError('required')">
+        Mobile number is field  required
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Password</mat-label>
+      <input matInput formControlName="password" type="password" required>
+      <mat-error *ngIf="signupForm.get('password')?.hasError('required')">
+        Password is field required
+      </mat-error>
+      <mat-error *ngIf="signupForm.get('password')?.hasError('minlength')">
+        Password must be at least 6 characters long
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Country</mat-label>
+      <mat-select formControlName="country" required>
+        <mat-option *ngFor="let country of countries" [value]="country">
+          {{ country }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit" [disabled]="signupForm.invalid" (click)="signup()">Signup</button>
+  
+  </form>
+
+    <form  *ngIf="!isSignup" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <mat-form-field appearance="fill">
+        <mat-label>Email</mat-label>
+        <input matInput formControlName="email" type="email">
+        <mat-error *ngIf="loginForm.get('email')?.hasError('required')">
+          Email is field  required
+        </mat-error>
+        <mat-error *ngIf="loginForm.get('email')?.hasError('email')">
+          Please enter a valid email address
+        </mat-error>
+      </mat-form-field>
+  
+      <mat-form-field appearance="fill">
+        <mat-label>Password</mat-label>
+        <input matInput formControlName="password" type="password">
+        <mat-error *ngIf="loginForm.get('password')?.hasError('required')">
+          Password is field required
+        </mat-error>
+        <mat-error *ngIf="loginForm.get('password')?.hasError('minlength')">
+          Password must be at least 6 characters long
+        </mat-error>
+      </mat-form-field>
+  
+      <button mat-raised-button color="primary" type="submit" (click)="loginClick()" [disabled]="loginForm.invalid">Login</button>
+    
+      <button mat-raised-button color="primary" type="submit" (click)="signupClick()" [disabled]="signupForm.invalid">Signup</button>  
+    
+     <button>
+      <a [routerLink]="['/forget-password']"(click)="openForgotPasswordDialog()" class="forget">Forget Password?</a>
+     </button> 
+    </form>
+  </mat-card>
+
