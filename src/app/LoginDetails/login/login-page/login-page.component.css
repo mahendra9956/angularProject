@@ -2,12 +2,40 @@ mat-card{
     max-width: 400px;
     margin: 2rem auto;
     padding: 2em;
+ 
 }
-button{
-    display: block;
-    margin-top: 1em;
-}
+
 .forget{
     text-decoration: none;
    
 }
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: grey;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+
+ .button-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+ }
+ .button-group{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-around;
+   
+   
+ }
+ .btn{
+   padding: 10px 120px 10px 120px;
+ }

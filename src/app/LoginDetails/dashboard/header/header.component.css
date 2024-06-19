@@ -4,7 +4,12 @@
   .logo{
     margin-left: 15px;
   }
-  
+  .login{
+    margin: 10px;
+  }
+  .home{
+    margin-right: 25px;
+  }
   .sidenav {
     position: absolute;
     top: 60px;

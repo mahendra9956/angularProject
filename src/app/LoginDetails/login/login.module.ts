@@ -18,6 +18,7 @@ import { ForgetPasswordComponent } from './forget-password/forget-password.compo
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatSelectModule} from '@angular/material/select';
 
+
 @NgModule({
   declarations: [
     LoginPageComponent,
@@ -36,7 +37,8 @@ import {MatSelectModule} from '@angular/material/select';
     MatCardModule,
     MatFormFieldModule,
     MatDialogModule,
-    MatSelectModule
+    MatSelectModule,
+    
   ]
 })
 export class LoginModule { }
