@@ -1,0 +1,38 @@
+.btn1{
+   
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.btn2{
+     margin-left: 40px;
+    justify-content: space-between;
+}
+
+table{
+    width: 100%;
+    margin-top: 20px;
+}
+
+mat-form-field{
+    width: 100%;
+}
+
+mat-card{
+    margin: 25px 25px 0px 25px;
+     padding: 50px 50px 50px 50px;
+     box-shadow: 5px 10px 18px hwb(0 71% 24%);
+}
+
+.list{
+    border: 1px solid #000;
+    background: #f3f3f3; 
+    padding: 30px; 
+    margin-bottom:15px;
+    border-radius: 5px;
+}
+
+.btn-group{
+    display: flex;
+    justify-content: flex-end;
+}

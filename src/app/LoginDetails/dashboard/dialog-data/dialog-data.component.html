@@ -1,0 +1,46 @@
+
+
+<h1 mat-dialog-title>Forms Field</h1>
+<div mat-dialog-content>
+  <form [formGroup]="dataForm">
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>S.No</mat-label>
+      <input matInput formControlName="sno" required>
+      <mat-error *ngIf="dataForm.get('sno')?.hasError('required')">
+        SNo number is required
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Name</mat-label>
+      <input matInput formControlName="name" required>
+      <mat-error *ngIf="dataForm.get('name')?.hasError('required')">
+        Name field is required
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Place</mat-label>
+      <input matInput formControlName="place" required>
+      <mat-error *ngIf="dataForm.get('place')?.hasError('required')">
+        Place field is required
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Description</mat-label>
+      <input matInput formControlName="description" required>
+      <mat-error *ngIf="dataForm.get('description')?.hasError('required')">
+        Description field is required
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Date</mat-label>
+      <input matInput formControlName="date" required>
+      <mat-error *nfIf="dataForm.get('date')?.hasError('required')">
+        Date filed is required
+      </mat-error>
+    </mat-form-field>
+  </form>
+</div>
+<div mat-dialog-actions>
+  <button  mat-raised-button color="warn" mat-button (click)="onNoClick()">Cancel</button>
+  <button  mat-raised-button color="primary" mat-button (click)="onSaveClick()" [disabled]="!dataForm.valid">Save</button>
+</div>

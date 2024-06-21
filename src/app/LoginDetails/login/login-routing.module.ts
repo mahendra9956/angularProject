@@ -5,13 +5,10 @@ import { ForgetPasswordComponent } from './forget-password/forget-password.compo
 
 const routes: Routes = [
   {
-    path: "login",
+    path: "",
     component: LoginPageComponent
-  },
-{
-  path: "forget-password",
-  component: ForgetPasswordComponent
-}
+  }
+
 ];
 
 @NgModule({

@@ -5,11 +5,11 @@ import { LoginPageComponent } from './LoginDetails/login/login-page/login-page.c
 
 const routes: Routes = [
   {
-    path: "",
+    path: "login",
     loadChildren:() => import("./LoginDetails/login/login.module").then(m=>m.LoginModule)
   },
   {
-    path: "",
+    path: "dashboard",
     loadChildren:() =>
       import("./LoginDetails/dashboard/dashboard.module").then(m=>m.DashboardModule)
   },
