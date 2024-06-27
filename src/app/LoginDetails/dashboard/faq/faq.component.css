@@ -1,0 +1,19 @@
+.title{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+    margin-left: 15rem;
+    text-align: justify;
+}
+.mat-expansion-panel-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mat-panel-description{
+    display: flex;
+    align-items: center;
+}
+.mat-icon{
+    margin-left: 10rem;
+}

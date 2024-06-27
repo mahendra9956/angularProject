@@ -1,0 +1,27 @@
+.contact-us-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: grey;
+
+  }
+  .main{
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/020/804/109/small/communication-and-technology-concept-hand-putting-wooden-block-cube-symbol-telephone-email-address-website-page-contact-us-or-e-mail-marketing-contact-us-in-customer-support-concept-photo.jpg');
+     width: 100%;
+     height: 100%;
+   
+  }
+  h1{
+    text-align: center;
+    background: #76ecbb;
+    padding: 10px;
+  }
+  
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    width: 100%;
+  }

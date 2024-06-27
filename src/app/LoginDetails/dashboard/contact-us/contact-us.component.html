@@ -1,0 +1,32 @@
+<div class="main">
+    <mat-card class="contact-us-container">
+        <h1>Contact Us</h1>
+        <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)">
+          <mat-form-field appearance="fill">
+            <mat-label>Name</mat-label>
+            <input matInput type="text" id="name" name="name" ngModel required>
+            <mat-error *ngIf="contactForm.submitted && !contactForm.controls.name?.valid">
+              Name is required
+            </mat-error>
+          </mat-form-field>
+          
+          <mat-form-field appearance="fill">
+            <mat-label>Email</mat-label>
+            <input matInput type="email" id="email" name="email" ngModel required>
+            <mat-error *ngIf="contactForm.submitted && !contactForm.controls.email?.valid">
+              Email is required
+            </mat-error>
+          </mat-form-field>
+      
+          <mat-form-field appearance="fill">
+            <mat-label>Message</mat-label>
+            <textarea matInput id="message" name="message" ngModel required></textarea>
+            <mat-error *ngIf="contactForm.submitted && !contactForm.controls.message?.valid">
+              Message is required
+            </mat-error>
+          </mat-form-field>
+      
+          <button mat-raised-button color="primary" type="submit">Send Message</button>
+        </form>
+      </mat-card>
+</div>

@@ -26,7 +26,14 @@ import {MatTableModule} from '@angular/material/table';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import { DialogDataComponent } from './dialog-data/dialog-data.component';
 import {MatDatepickerModule} from '@angular/material/datepicker';
-import { MatNativeDateModule } from '@angular/material/core';
+import { MatNativeDateModule, MatOptionModule } from '@angular/material/core';
+import { CountryApiComponent } from './country-api/country-api.component';
+import { HomepageComponent } from './homepage/homepage.component';
+import { ChangePasswordComponent } from './change-password/change-password.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { AboutComponents } from './about/about.component';
+import { FaqComponent } from './faq/faq.component';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
@@ -35,6 +42,12 @@ import { MatNativeDateModule } from '@angular/material/core';
     HeaderComponent,
     FooterComponent,
     DialogDataComponent,
+    CountryApiComponent,
+    HomepageComponent,
+    ChangePasswordComponent,
+    ContactUsComponent,
+    AboutComponents,
+    FaqComponent,
   ],
   imports: [
     CommonModule,
@@ -57,7 +70,9 @@ import { MatNativeDateModule } from '@angular/material/core';
     MatTableModule,
     MatCheckboxModule,
     MatDatepickerModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    MatOptionModule,
+    MatExpansionModule
   ]
 })
 export class DashboardModule { }
