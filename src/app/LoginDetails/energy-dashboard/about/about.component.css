@@ -1,0 +1,68 @@
+.about{
+    text-align: center;
+    
+}
+.about h1{
+    margin-right: 50rem;
+    font-size: 70px;
+    
+}
+.about p{
+    font-size: 25px;
+   text-align: justify;
+   margin-left: 40rem;
+   margin-top: -100px;
+   margin-bottom: 40px;
+}
+.about button{
+    padding: 15px 30px;
+    border: 1px solid #dee2d7;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    
+}
+button:hover{
+    background: greenyellow;
+    color: #fff;
+}
+
+h1{
+    margin-top: 150px;
+}
+.about-image .solar{
+margin-right: 20px;
+}
+.about-image .wall{
+    margin-right: 20px;
+}
+.about-image .fan{
+    margin-right: 20px;
+}
+.about-image .gun{
+    margin-right: 20px;
+}
+.about-order{
+    text-align: center;
+    margin-top: 80px;
+    padding: 100px;
+}
+
+.about-order h1{
+    font-size: 25px;
+   
+}
+.about-order .cool{
+    margin-right: 60rem;
+}
+.about-order .title{
+    margin-left: 15rem;
+    margin-top: -80px;
+}
+.about-order .feature{
+    margin-top: -80px;
+    margin-right: 20rem;
+}
+.about-order .avg{
+    margin-left: 60rem;
+    margin-top: -80px;
+}

@@ -15,7 +15,11 @@ const routes: Routes = [
     loadChildren:() =>
       import("./LoginDetails/dashboard/dashboard.module").then(m=>m.DashboardModule)
   },
- 
+ {
+  path: "landing",
+  loadChildren:() =>
+    import("./LoginDetails/energy-dashboard/energy-dashboard.module").then(m=>m.EnergyDashboardModule)
+ }
 
 
 ];

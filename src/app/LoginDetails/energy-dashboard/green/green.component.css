@@ -1,0 +1,160 @@
+.green{
+    text-align: center;
+    background: #195019;
+    color: #fff;
+    padding: 20px;
+}
+.green h1{
+    font-size: 50px;
+    text-align: justify;
+    margin-left: 8rem;
+}
+.group-btn{
+    margin-top: -170px;
+    padding: 100px;
+    margin-left: 600px;
+}
+.green input{
+    padding: 20px 45px 20px 45px;
+     border: 2px solid #195019;
+     border-radius: 30px;
+}
+.green button{
+    padding: 20px 45px 20px 45px;
+    margin-left: 20px;
+    border: 2px solid #195019;
+    border-radius: 30px;
+}
+button:hover{
+    background: greenyellow;
+    color: #fff;
+}
+
+
+.footer-page{
+    height: 100vh;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    
+    }
+  .footer-page h1{
+    margin-top: -50px;
+    margin-left: 70px;
+  }
+  
+    .box1{
+    height: 100vh;
+    width: 200px;
+    
+    }
+    .box1 p{
+    margin-top: 20px;
+    margin-left: 30px;
+    opacity: 0.6;
+    font-size: 8px;
+    }
+    .box2{
+    height: 100vh;
+    width: 200px;
+    }
+    .box2 a{
+    text-decoration: none;
+    margin-right: 100px;
+    color:black;
+    opacity: 0.6;
+    }
+    .box2 h3{
+    margin-left: 25px;
+    margin-top: 10px;
+    }
+    .box2 h3:hover{
+    color: purple;
+    }
+    .box2 p{
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0.7;
+    }
+    .box2 a:hover{
+    color: purple;
+    }
+    .box3{
+    height: 100vh;
+    width: 200px;
+    }
+    .box3 a{
+    text-decoration: none;
+    margin-right: 100px;
+    color:black;
+    opacity: 0.6;
+    }
+    .box3 h3{
+    margin-left: 25px;
+    margin-top: 10px;
+    }
+    .box3 h3:hover{
+    color: purple;
+    }
+    .box3 p{
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0.7;
+    }
+    .box3 a:hover{
+    color: purple;
+    }
+    .box4{
+    height: 100vh;
+    width: 200px;
+    margin-right: 50px;
+    }
+    .box5 a{
+        text-decoration: none;
+      
+    }
+    .box5{
+        margin-right: 200px;
+    }
+    .box4 h3{
+    margin-left: 25px;
+    margin-top: 10px;
+    }
+    .box4 a{
+    text-decoration: none;
+    margin-right: 80px;
+    color:black;
+    opacity: 0.6;
+    }
+    .box4 h3:hover{
+    color: purple;
+    }
+    .box4 p{
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0.7;
+    }
+    .box4 a:hover{
+    color: purple;
+    }
+    
+    footer {
+    background-color:#fff;
+    color: black;
+    padding: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid hwb(0 78% 17%);
+    margin-top: -320px;
+    font-size: 20px;
+    }
+    
+    footer a {
+    color:black;
+    float: right;
+    letter-spacing: 20px;
+    }
+    
+    footer a:hover {
+    text-decoration: underline;
+    }

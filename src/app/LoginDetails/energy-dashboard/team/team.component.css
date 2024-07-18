@@ -1,0 +1,231 @@
+.team{
+    text-align: center;
+}
+.team h1{
+    margin-right: 65rem;
+    margin-bottom: 20px;
+}
+h1{
+    margin-top: 100px;
+}
+
+.team p{
+    margin-right: 45rem;
+}
+.arrow{
+    margin-bottom: 100px;
+}
+.back mat-icon{
+    margin-left: 70rem;
+}
+mat-icon{
+    margin-left: 20px;
+}
+.group-images{
+    margin-bottom: 150px;
+}
+.group-images .team{
+margin-right: 20px;
+}
+.group-images .team1{
+    margin-right: 20px;
+}
+.group-images .team2{
+    margin-right: 20px;
+}
+
+.green{
+    text-align: center;
+    background: #032203;
+    color: #fff;
+    padding: 50px 100px 50px 100px;
+    margin-top: 100px;
+}
+.green h1{
+    font-size: 70px;
+    margin-left: 10rem;
+    text-align: justify;
+}
+.green p{
+text-align: justify;
+margin-left: 10rem;
+margin-top: 50px;
+}
+.green img{
+  
+   margin-top: -350px;
+    margin-left: 50rem;
+}
+.sai{
+   
+    padding: 20px;
+  
+    margin-left: 25rem;
+    margin-top: -280px;
+
+}
+.sai mat-card{
+    width: 250px;
+    text-align: center;
+    
+}
+.sai mat-card h2{
+margin-top: 10px;
+}
+
+.sai span{
+opacity: 0.6;
+margin-bottom: 10px;
+}
+
+.dheeraraj{
+   
+    padding: 20px;
+  margin-top: -130px;
+margin-left: 20px;    
+
+}
+.dheeraraj mat-card{
+    width: 250px;
+    text-align: center;
+   
+    
+}
+.dheeraraj mat-card h2{
+margin-top: 10px;
+}
+
+.dheeraraj span{
+opacity: 0.6;
+margin-bottom: 10px;
+}
+
+
+.kavya{
+   
+    margin-top: -110px;
+   margin-left: 25rem;
+
+}
+.kavya mat-card{
+    width: 300px;
+    text-align: center;
+   
+    
+}
+.kavya mat-card h2{
+margin-top: 10px;
+}
+
+.kavya span{
+opacity: 0.6;
+margin-bottom: 10px;
+}
+
+
+.mahi{
+   
+    margin-top: -90px;
+    margin-left: 30px;
+   
+
+}
+.mahi mat-card{
+    width: 300px;
+    text-align: center;
+   
+    
+}
+.mahi mat-card h2{
+margin-top: 10px;
+}
+
+.mahi span{
+opacity: 0.6;
+margin-bottom: 10px;
+}
+
+.asif{
+   
+    padding: 20px;
+  
+   margin-top: -130px;
+  margin-left: 70rem;
+
+}
+.asif mat-card{
+    width: 250px;
+    text-align: center;
+    
+}
+.asif mat-card h2{
+margin-top: 10px;
+}
+
+.asif span{
+    margin-bottom: 10px;
+opacity: 0.6;
+}
+
+.charan{
+   
+    padding: 20px;
+  
+   margin-top: -570px;
+  margin-left: 70rem;
+
+}
+.charan mat-card{
+    width: 250px;
+    text-align: center;
+    
+}
+.charan mat-card h2{
+margin-top: 10px;
+}
+
+.charan span{
+    margin-bottom: 10px;
+opacity: 0.6;
+}
+
+
+.karthika{
+   
+    padding: 20px;
+  
+   margin-top: -120px;
+  margin-left: 48rem;
+
+}
+.karthika mat-card{
+    width: 250px;
+    text-align: center;
+    
+}
+.karthika mat-card h2{
+margin-top: 10px;
+}
+
+.karthika span{
+    margin-bottom: 10px;
+opacity: 0.6;
+}
+
+
+button{
+    padding: 15px 35px 15px 35px;
+    margin-right: 10rem;
+    border: 2px solid  #032203;
+    border-radius: 30px;
+    font-size: 25px;
+    
+    
+}
+
+
+
+button:hover{
+    background: greenyellow;
+    color: #fff;
+}

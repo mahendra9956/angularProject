@@ -1,0 +1,106 @@
+.extra{
+    flex: 1 1 auto;
+  }
+  
+  .logo{
+    height: 40px;
+    margin-right: 16px;
+  }
+  .login{
+    margin: 10px;
+  }
+  .home{
+    margin-right: 25px;
+  }
+  .contacts{
+    margin-right: 25px;
+  }
+  .about{
+    margin-right: 25px;
+  }
+
+ 
+  .sidenav {
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eee;
+  }
+  mat-sidenav {
+    width: 200px;
+    padding: 20px;
+  }
+  mat-sidenav-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }
+  .btn{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 35px;
+    background: white;
+  }
+  .btn:hover{
+    background: purple;
+    color: white;
+  }
+  .powering{
+    text-align: center;
+  }
+  .powering button{
+    margin-right: 60px;
+  }
+  .power{
+    margin-right: 50rem;
+    margin-top: 100px;
+  }
+  .input-power{
+    margin-bottom: 50px;
+    margin-right: 18rem;
+  }
+
+  .power p{
+    margin-top: 40px;
+   text-align: justify;
+   margin-left: 100px;
+  }
+  .power button{
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: 2px solid hsl(135, 13%, 6%);
+    border-radius: 30px;
+   
+  }
+  .power button:hover{
+    background: hsl(135, 13%, 6%);
+    color: #fff;
+  }
+  .power h1{
+    font-size: 70px;
+  }
+
+  .radius-img{
+    margin-left:40rem;
+    margin-top: -438px;
+
+  }
+  .footer .merge{
+    margin-right: 100px;
+  }
+  .footer .multiline{
+    margin-right: 50px;
+  }
+  .footer .monetization{
+    margin-right: 30px;
+  }
+ .footer{
+  padding: 100px;
+ }
+ .space{
+  padding: 50px;
+ }

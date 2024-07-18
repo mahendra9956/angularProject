@@ -6,6 +6,8 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AboutComponents } from './about/about.component';
 import { FaqComponent } from './faq/faq.component';
+import { PersondataComponent } from './persondata/persondata.component';
+import { LandingPageComponent } from '../energy-dashboard/landing-page/landing-page.component';
 
 const routes: Routes = [
   {
@@ -31,6 +33,14 @@ const routes: Routes = [
   {
     path: "faq",
     component:FaqComponent
+  },
+  {
+    path: "person",
+    component:PersondataComponent
+  },
+  {
+    path:"landing",
+    component:LandingPageComponent
   }
  
 

@@ -1,0 +1,96 @@
+<mat-toolbar>
+    <img src="https://png.pngtree.com/element_our/png/20181114/money-flow-flat-icon-png_238380.jpg" alt="Logo" class="logo"/>
+  
+    <div>Flow</div>   
+    <div class="extra"></div>
+    <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>
+          <mat-icon> <a [routerLink]="['/landing/about']" class="primary"> font_download </a></mat-icon>
+          <span>About Us</span>
+        </button>
+        <button mat-menu-item>
+          <mat-icon> <a [routerLink]="['/landing/team']" class="primary">zoom_out_map</a></mat-icon>
+          <span>Team</span>
+        </button>
+        <button mat-menu-item>
+          <mat-icon> <a [routerLink]="['/landing/solution']" class="primary"> group_work </a></mat-icon>
+          <span>Soulations</span>
+        </button>
+        <button mat-menu-item>
+          <mat-icon><a [routerLink]="['/landing/blog']" class="primary">chat_bubble </a></mat-icon>
+          <span>Blog</span>
+        </button>
+        <button mat-menu-item>
+            <mat-icon><a [routerLink]="['/landing/faq']" class="primary">dashboard</a></mat-icon>
+            <span>FAQ</span>
+          </button>
+          <button mat-menu-item>
+            <mat-icon><a [routerLink]="['/landing/customer']" class="primary">find_in_page</a></mat-icon>
+            <span>Customer</span>
+          </button>
+          <button mat-menu-item>
+            <mat-icon><a [routerLink]="['/landing/green']" class="primary">tab</a></mat-icon>
+            <span>Green</span>
+          </button>
+      </mat-menu>
+  </mat-toolbar>
+
+
+<div class="powering">
+
+  <div class="power">
+    <div class="input-power">
+      <input type="radio">Powering Tomorrow
+    </div>
+    
+    <h1>The Future of <br> <br> Green Energy</h1>
+    <p>Our commitment to green enegry is paving the way for a cleaner, <br>
+        healthier planet.Join us on a journey towards a future where clean, <br>
+        renewable enegry sources transform the way we power our lives.
+    </p>
+    <button>See our soulations</button>
+    <button>Get in touch</button>
+  </div>
+
+  <div class="radius-img">
+    <img src="./assets/landing/Image.png" alt="">
+  </div>
+
+</div>
+
+<mat-toolbar class="footer">
+  <h5>Gobal patners that trusted us</h5>
+  <div class="extra"></div>
+   
+  <div class="merge">
+    <mat-icon> merge_type</mat-icon>
+    <span>logoipusm</span>
+  </div>
+ 
+  <div class="multiline">
+    <mat-icon>multiline_chart</mat-icon>
+    <span >Logoipusm</span>
+  </div>
+  
+  
+ <div class="monetization">
+  <mat-icon>extension</mat-icon>
+  <span >Logoipusm</span>
+ </div>
+  
+ <div class="game">
+  <mat-icon>gamepad</mat-icon>
+  <span >Logoipusm</span>
+ </div>
+
+  
+ 
+</mat-toolbar>
+
+<div class="space">
+
+</div>
+ 

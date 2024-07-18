@@ -1,0 +1,40 @@
+
+ table{
+  width: 100%;
+ }
+ th{
+  background-color: rgb(47, 0, 255);
+  color: #fff;
+  font-size: 20px;
+ }
+ td{
+  font-size: 16px;
+  min-width: 100px;
+  padding: 10px 40px;
+  background: rgb(193, 240, 122);
+ }
+ .mat-elevation-z8{
+    background-color: #ff004c;
+  color: #fff;
+ }
+
+
+ .paginator{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+ }
+ .paginator button{
+    margin: 0 5px;
+    padding: 6px 30px 6px 30px;
+    background: blue;
+    color: #fff;
+ }
+
+  .paginator button:hover{
+  background: hsl(342, 90%, 60%);
+  color: #fff;
+  border: 1px solid hsl(342, 90%, 60%);
+  border-radius: 20px;
+
+ }

@@ -34,6 +34,10 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AboutComponents } from './about/about.component';
 import { FaqComponent } from './faq/faq.component';
 import {MatExpansionModule} from '@angular/material/expansion';
+import { PersondataComponent } from './persondata/persondata.component';
+import {MatTabsModule} from '@angular/material/tabs';
+import {MatPaginatorModule} from '@angular/material/paginator';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 @NgModule({
   declarations: [
@@ -48,6 +52,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
     ContactUsComponent,
     AboutComponents,
     FaqComponent,
+    PersondataComponent,
   ],
   imports: [
     CommonModule,
@@ -72,7 +77,10 @@ import {MatExpansionModule} from '@angular/material/expansion';
     MatDatepickerModule,
     MatNativeDateModule,
     MatOptionModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatTabsModule,
+    MatPaginatorModule,
+    NgxPaginationModule
   ]
 })
 export class DashboardModule { }
